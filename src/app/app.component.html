@@ -1,0 +1,16 @@
+<div>
+  <nav class="navbar navbar-light " style="background-color: rgb(0, 0, 0);">
+     <a class="navbar-brand" href="#">
+     <!-- <img src=".\assets\images\logo.jfif" width="30" height="30" class="d-inline-block align-top" alt=""> -->
+      HarshVardhan
+    </a> 
+<ul>
+       <li routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}"><a routerLink="">Home</a></li>
+       <li routerLinkActive="active"><a routerLink="/Education">Education</a></li>
+       <li routerLinkActive="active"><a routerLink="/Projects">Projects</a></li>  
+       <li routerLinkActive="active"><a routerLink="/Contact">Contact me</a></li>
+</ul>
+</nav>
+  <router-outlet></router-outlet>
+  <!-- <app-footer></app-footer> -->
+</div>

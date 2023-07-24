@@ -1,0 +1,23 @@
+
+<div class="container-flex">
+    <div class="projects-container">
+        <div class="projects-text">
+            <h2>Projects</h2>
+            <p>My projects make best use of vast variety of latest technology tools</p>
+        </div>
+        <div class="projects-image">
+            <img src=".\assets\images\download.png" width="200" height="200">
+        </div> 
+    </div>
+    <div *ngFor="let project of projects" class="projects">
+        <div class="card" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title">{{project.title}}</h5>
+              <h6 class="card-subtitle mb-2 text-body-secondary">{{project.subtitle}}</h6>
+              <p class="card-text">{{project.description}}</p>
+            </div>
+           </div>
+      </div>
+</div>    
+    
+

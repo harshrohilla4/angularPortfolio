@@ -1,0 +1,21 @@
+.certificates-container{
+    text-align: center;
+    width: 960px;
+}
+.card{
+    max-width: 300px;
+    height:auto;
+    margin:0 auto;
+    float: none;
+    margin-bottom: 10px;
+}
+.container-flex{
+    display: flexbox;
+    /* margin: 10px 0px; */
+    justify-content: center;
+    padding: 10px 10px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+}

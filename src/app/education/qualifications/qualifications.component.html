@@ -1,0 +1,21 @@
+<div class="container-flex">
+    <h2 color="white">Qualifications</h2>
+ <div class="qualifications-container">
+      <div *ngFor="let qualification of qualifications" class="card text-start mb-3" style="max-width: 540px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img [src]="qualification.image" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">{{qualification.title}}</h5>
+              <h6 class="card-title">{{qualification.major}}</h6>
+              <p class="card-text">{{qualification.school}}</p>
+              <p class="card-text">{{qualification.years}}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+

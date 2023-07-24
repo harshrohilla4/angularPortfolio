@@ -1,0 +1,17 @@
+<div class="container-flex">
+    <h2>Certificates</h2>
+<div class="d-flex justify-content-evenly">
+    <div class="row">
+          <div *ngFor="let certificate of certificates" class="col-sm-6">
+            <div class="card">
+              <img [src]="certificate.image">
+              <div class="card-body">
+                <h5 class="card-title">{{certificate.name}}</h5>
+                <p class="card-text">{{certificate.author}}</p>
+                <a [href]="certificate.link" class="btn btn-primary">Course link</a>
+              </div>
+            </div>
+          </div>
+      </div>
+</div>
+</div>
